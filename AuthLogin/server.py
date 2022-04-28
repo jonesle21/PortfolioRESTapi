@@ -19,7 +19,7 @@ import requests
 
 
 app = Flask(__name__, static_url_path='/public', static_folder='./public')
-app.secret_key = 'ThisIsTheSecretKey'
+app.secret_key = '****'
 app.debug = True
 
 
@@ -34,8 +34,8 @@ oauth = OAuth(app)
 
 auth0 = oauth.register(
     'auth0',
-    client_id='Am0NdDm5ukWi18VYkKF4Asj6lDYbWDQ9',
-    client_secret='ThsPf_X8Ooq8emay0fT7ZC8mnffjTt2XsPwuUJC8I19RZrLWyI85bRKILP1T90EX',
+    client_id='*******',
+    client_secret='*****',
     api_base_url='https://jonesl7-assignment7.us.auth0.com',
     access_token_url='https://jonesl7-assignment7.us.auth0.com/oauth/token',
     authorize_url='https://jonesl7-assignment7.us.auth0.com/authorize',
